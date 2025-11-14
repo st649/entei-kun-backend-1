@@ -73,8 +73,8 @@ export class AppService {
   predictDamPreciseScoringTotalScore(
     startTime: dayjs.Dayjs,
     timeLimit: number,
-    isJst = false,
-    includeNormal = false,
+    isJst = true,
+    includeNormal = true,
     includeQuadruple = true,
     include100 = true
   ) {

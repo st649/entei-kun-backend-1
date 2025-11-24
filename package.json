@@ -37,6 +37,7 @@
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^7.5.7"
+    "validator": "^13.11.0",
   },
   "devDependencies": {
     "@nestjs/schematics": "^9.0.3",
@@ -47,7 +48,7 @@
     "@types/secure-json-parse": "^1.0.3",
     "@types/supertest": "^2.0.12",
     "@types/urijs": "^1.19.19",
-    "@types/validator": "^13.7.7",
+    "@types/validator": "^13.11.1",
     "@typescript-eslint/eslint-plugin": "^5.38.1",
     "@typescript-eslint/parser": "^5.38.1",
     "eslint": "^8.24.0",

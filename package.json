@@ -20,6 +20,7 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@nestjs/cli": "^9.1.4",
     "@fastify/cors": "8.1.0",
     "@fastify/swagger": "7.6.1",
     "@nestjs/common": "^9.1.2",
@@ -38,7 +39,6 @@
     "rxjs": "^7.5.7"
   },
   "devDependencies": {
-    "@nestjs/cli": "^9.1.4",
     "@nestjs/schematics": "^9.0.3",
     "@nestjs/testing": "^9.1.2",
     "@types/jest": "^29.1.1",

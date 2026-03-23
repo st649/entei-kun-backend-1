@@ -3,7 +3,6 @@ FROM node:18-slim
 WORKDIR /app
 
 ADD package.json .
-ADD yarn.lock .
 RUN yarn install && \
     yarn cache clean --all
 COPY . .

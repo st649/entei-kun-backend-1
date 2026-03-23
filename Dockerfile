@@ -4,7 +4,7 @@ WORKDIR /app
 
 ADD package.json .
 ADD yarn.lock .
-RUN yarn install --frozen-lockfile && \
+RUN yarn install && \
     yarn cache clean --all
 COPY . .
 RUN yarn build
